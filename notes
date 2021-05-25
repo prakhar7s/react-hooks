@@ -1,1 +1,5 @@
 Hook allows us to do things that we generally only do in the class components.
+
+useEffect: 
+return two things actual value and a func to change the value.
+we have uuid@3.3.2 package to generate unique IDs.

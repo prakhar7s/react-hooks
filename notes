@@ -1,5 +1,12 @@
 Hook allows us to do things that we generally only do in the class components.
 
-useEffect: 
+useState: 
 return two things actual value and a func to change the value.
 we have uuid@3.3.2 package to generate unique IDs.
+
+useEffect:
+it takes two things one is callback function and second one is the array of dependencies
+dependecies could be anything
+nothing is passed then it will run on every state change.
+if it is [] it will only run on initial render
+if it is [age] it will only run if the value of age state changes
